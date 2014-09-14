@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Daily Work Backbone</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Works Backbone</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-    <div id="main-content"></div>
-
+    <section id="dailWorksApp">
+        <header id="header">
+            <h1>works</h1>
+        </header>
+        <section id="main">
+            <table class="table table-striped">
+                <thead>
+                    <th>ID</th>
+                    <th>Title</th>
+                </thead>
+                <tbody id="work-list">
+                </tbody>
+            </table>
+        </section>
+        <footer id="footer"></footer>
+    </section>
     <script src="app/require.config.js"></script>
     <script data-main="app" src="lib/require-2.1.15.js"></script>
 </body>

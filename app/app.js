@@ -2,13 +2,13 @@ define(
     [
         'jquery',
         'backbone',
-        'workGrid/view'
+        'appView'
     ],
     
-    function($, Backbone, WorkGridView) {
+    function($, Backbone, AppView) {
         
         var app = {
-            workGridView: new WorkGridView(),
+            appView: new AppView(),
             
             start: function() {
                 
