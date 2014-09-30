@@ -9,7 +9,7 @@ define(
         
         var WorkView = Backbone.View.extend({
             
-            tagName: 'tr',
+            tagName: 'li',
             
             template: _.template(workRowTemplate),
             
