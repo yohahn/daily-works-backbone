@@ -2,10 +2,11 @@ define(
     [
         'jquery',
         'backbone',
+        'material',
         'appView'
     ],
     
-    function($, Backbone, AppView) {
+    function($, Backbone, material, AppView) {
         
         var app = {
             appView: new AppView(),
