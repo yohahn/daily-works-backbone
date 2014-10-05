@@ -9,7 +9,9 @@ define(
         
         var WorkView = Backbone.View.extend({
             
-            tagName: 'li',
+            tagName: 'div',
+            
+            className: 'list-group-item',
             
             template: _.template(workRowTemplate),
             

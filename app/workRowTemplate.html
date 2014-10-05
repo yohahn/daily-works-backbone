@@ -1,6 +1,10 @@
-<div class="view">
-    <input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
-    <label><%- title %></label>
-    <button class="destroy"></button>
+<div class="row-action-primary checkbox">
+    <label>
+        <input type="checkbox" class="bs-material" <%= completed ? 'checked' : '' %>>
+        <span class="check"></span>
+    </label>
 </div>
-<input class="edit" style="display: none;" value="<%- title %>">
+<div class="row-content">
+    <h4 class="list-group-item-heading"><%- title %></h4>
+    <p class="list-group-item-text"><%- title %></p>
+</div>
